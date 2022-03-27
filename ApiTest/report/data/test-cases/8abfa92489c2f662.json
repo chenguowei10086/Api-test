@@ -1,0 +1,138 @@
+{
+  "uid" : "8abfa92489c2f662",
+  "name" : "test_edit_flag",
+  "fullName" : "testcases.test_api.TestRequest#test_edit_flag",
+  "historyId" : "073cb06c544f99ba8396dbf1d22b16fe",
+  "time" : {
+    "start" : 1648033102699,
+    "stop" : 1648033102699,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <testcases.test_api.TestRequest object at 0x0000018031B38340>\nexe_sql = None\n\n    @pytest.mark.smoke\n    # post请求:编辑标签接口\n    def test_edit_flag(self,exe_sql):\n>       url =\"https://api.weixin.qq.com/cgi-bin/tags/update?access token= \"+read_yaml(\"access_token\")\n\ntestcases\\test_api.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nkey = 'access_token'\n\n    def read_yaml(key):\n        with open(os.getcwd()+'/extract.yaml',mode='r',encoding='utf-8') as f:\n            value = yaml.load(stream=f,Loader=yaml.FullLoader)\n>           return value[key]\nE           TypeError: 'NoneType' object is not subscriptable\n\ncommon\\yaml_util.py:8: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract",
+    "time" : {
+      "start" : 1648033102503,
+      "stop" : 1648033102505,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequest",
+    "time" : {
+      "start" : 1648033102505,
+      "stop" : 1648033102505,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "exe_sql",
+    "time" : {
+      "start" : 1648033102698,
+      "stop" : 1648033102698,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "exe_sql::0",
+    "time" : {
+      "start" : 1648033102706,
+      "stop" : 1648033102706,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequest::0",
+    "time" : {
+      "start" : 1648033102713,
+      "stop" : 1648033102713,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-29T4IPBI"
+  }, {
+    "name" : "thread",
+    "value" : "7940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "8abfa92489c2f662.json",
+  "parameterValues" : [ ]
+}

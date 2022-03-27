@@ -1,0 +1,108 @@
+{
+  "uid" : "d3092b019c7cfb3c",
+  "name" : "test_get_token",
+  "fullName" : "testcases.test_api.TestRequest#test_get_token",
+  "historyId" : "9cfed629b3d49eb458e6ca83211873b4",
+  "time" : {
+    "start" : 1648033035586,
+    "stop" : 1648033035586,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Session' object has no attribute 'requset'",
+  "statusTrace" : "self = <testcases.test_api.TestRequest object at 0x0000017BF5CE5430>\n\n    @pytest.mark.smoke\n    # get请求:获取接口统一鉴权码token接口\n    def test_get_token(self):\n        url =\"https://api.weixin.qq.com/cgi-bin/token\"\n        # url =\"https://api.tttt.one/rest-v2/todo\"\n        params={\n            \"grant_type\":\"client_credential\",\n            \"appid\":\"wx74a8627810cfa308\",\n            \"secret\":\"e40a02f9d79a8097df497e6aaf93ab80\"\n        }\n>       res =RequestUtil().send_request(method=\"get\",url=url,datas=params)\n\ntestcases\\test_api.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.request_util.RequestUtil object at 0x0000017BF5CE5460>\nmethod = 'get', url = 'https://api.weixin.qq.com/cgi-bin/token'\ndatas = {'appid': 'wx74a8627810cfa308', 'grant_type': 'client_credential', 'secret': 'e40a02f9d79a8097df497e6aaf93ab80'}\nkwargs = {}, res = None\n\n    def send_request(self,method,url,datas=None,**kwargs):\n        method =str(method).lower()\n        res =None\n        if method == \"get\":\n>           res =RequestUtil.sess.requset(method=method,url=url,params=datas,**kwargs)\nE           AttributeError: 'Session' object has no attribute 'requset'\n\ncommon\\request_util.py:12: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract",
+    "time" : {
+      "start" : 1648033035582,
+      "stop" : 1648033035585,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequest",
+    "time" : {
+      "start" : 1648033035585,
+      "stop" : 1648033035585,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestRequest::0",
+    "time" : {
+      "start" : 1648033035754,
+      "stop" : 1648033035754,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-29T4IPBI"
+  }, {
+    "name" : "thread",
+    "value" : "6576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "d3092b019c7cfb3c.json",
+  "parameterValues" : [ ]
+}

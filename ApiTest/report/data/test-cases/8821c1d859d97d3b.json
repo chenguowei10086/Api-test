@@ -1,0 +1,119 @@
+{
+  "uid" : "8821c1d859d97d3b",
+  "name" : "test_edit_flag[args_name0]",
+  "fullName" : "testcases.test_api.TestRequest#test_edit_flag",
+  "historyId" : "88d43e3d54cba76a84d85ac25d502cac",
+  "time" : {
+    "start" : 1648050112823,
+    "stop" : 1648050113129,
+    "duration" : 306
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract",
+    "time" : {
+      "start" : 1648050112239,
+      "stop" : 1648050112242,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequest",
+    "time" : {
+      "start" : 1648050112242,
+      "stop" : 1648050112242,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestRequest::0",
+    "time" : {
+      "start" : 1648050113139,
+      "stop" : 1648050113139,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-29T4IPBI"
+  }, {
+    "name" : "thread",
+    "value" : "23300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args_name",
+    "value" : "{'name': '编辑标签接口', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update?access_token=', 'data': {'tag': {'id': 134, 'name': '广东人'}}}, 'validate': 'None'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "537099d37164cc06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648050073338,
+        "stop" : 1648050073623,
+        "duration" : 285
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "8821c1d859d97d3b.json",
+  "parameterValues" : [ "{'name': '编辑标签接口', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update?access_token=', 'data': {'tag': {'id': 134, 'name': '广东人'}}}, 'validate': 'None'}" ]
+}

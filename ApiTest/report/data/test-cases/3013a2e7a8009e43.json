@@ -1,0 +1,234 @@
+{
+  "uid" : "3013a2e7a8009e43",
+  "name" : "test_login",
+  "fullName" : "testcases.test_user.TestUser#test_login",
+  "historyId" : "9f475056b86731e6f987ed0192674e5f",
+  "time" : {
+    "start" : 1648041809033,
+    "stop" : 1648041809116,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 19,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "clear_extract",
+    "time" : {
+      "start" : 1648041808112,
+      "stop" : 1648041808116,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-29T4IPBI"
+  }, {
+    "name" : "thread",
+    "value" : "5184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b86c4cd17ab4b41b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041531346,
+        "stop" : 1648041532098,
+        "duration" : 752
+      }
+    }, {
+      "uid" : "e449d7c28fab577e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041198382,
+        "stop" : 1648041199236,
+        "duration" : 854
+      }
+    }, {
+      "uid" : "ab43034026171954",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041161055,
+        "stop" : 1648041161397,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "f89e2d7b1a06c89c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041105680,
+        "stop" : 1648041136517,
+        "duration" : 30837
+      }
+    }, {
+      "uid" : "1b279c6f5c6fe8f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041074855,
+        "stop" : 1648041074984,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "1850313576f6831",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041010758,
+        "stop" : 1648041011616,
+        "duration" : 858
+      }
+    }, {
+      "uid" : "8bdb72c6a8e659fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040994342,
+        "stop" : 1648040994921,
+        "duration" : 579
+      }
+    }, {
+      "uid" : "f3c5b002500d0d5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040949625,
+        "stop" : 1648040949970,
+        "duration" : 345
+      }
+    }, {
+      "uid" : "3a42793712bbbb77",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got an unexpected keyword argument 'datas'",
+      "time" : {
+        "start" : 1648040910426,
+        "stop" : 1648040910426,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "67a4fd054801896c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got an unexpected keyword argument 'datas'",
+      "time" : {
+        "start" : 1648040864251,
+        "stop" : 1648040864253,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "336e02154295b0c1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got an unexpected keyword argument 'header'",
+      "time" : {
+        "start" : 1648040761229,
+        "stop" : 1648040761230,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1eb4f1d2be82529e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040396792,
+        "stop" : 1648040396915,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "632e3e3257801118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040363391,
+        "stop" : 1648040363756,
+        "duration" : 365
+      }
+    }, {
+      "uid" : "8441ff2f9b2180c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040336307,
+        "stop" : 1648040336460,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "ca14a5c33d488aa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040272287,
+        "stop" : 1648040272388,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "8ee93cdce99d1c80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040022641,
+        "stop" : 1648040022832,
+        "duration" : 191
+      }
+    }, {
+      "uid" : "bfd7070a246b5118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648038081191,
+        "stop" : 1648038081666,
+        "duration" : 475
+      }
+    }, {
+      "uid" : "26d981243e03349d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648033558354,
+        "stop" : 1648033558476,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "d065746be1745097",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got multiple values for keyword argument 'data'",
+      "time" : {
+        "start" : 1648033488162,
+        "stop" : 1648033488163,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "3013a2e7a8009e43.json",
+  "parameterValues" : [ ]
+}

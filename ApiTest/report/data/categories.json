@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'E:\\\\shu.png'",
+      "children" : [ {
+        "name" : "test_file_upload",
+        "uid" : "c9a5ac4f1c27c535",
+        "parentUid" : "c95324675c59e58852091e5010a815c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648033327772,
+          "stop" : 1648033327773,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c95324675c59e58852091e5010a815c7"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('args_name', <FixtureRequest for <Function test_edit_flag>>)",
+      "children" : [ {
+        "name" : "test_edit_flag",
+        "uid" : "ae2169041d29e8d1",
+        "parentUid" : "cb9f304bbdd00af1998f16ebdac5df8c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648049726523,
+          "stop" : 1648049726523,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 46,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb9f304bbdd00af1998f16ebdac5df8c"
+    }, {
+      "name" : "KeyError: 'access_token'",
+      "children" : [ {
+        "name" : "test_get_token[args_name1]",
+        "uid" : "ec377f1273cca031",
+        "parentUid" : "7c4cbec72ba90dadd34e7cfd2c493d54",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648049953417,
+          "stop" : 1648049953494,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '编辑标签接口', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update?access_token=', 'data': {'tag': {'id': 134, 'name': '广东人'}}}, 'validate': 'None'}" ]
+      } ],
+      "uid" : "7c4cbec72ba90dadd34e7cfd2c493d54"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

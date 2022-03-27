@@ -1,0 +1,295 @@
+{
+  "uid" : "319c205c9fb37be4",
+  "name" : "test_get_token[args_name0]",
+  "fullName" : "testcases.test_api.TestRequest#test_get_token",
+  "historyId" : "c6ac9ce1e75e8f02e9e196f6301e9153",
+  "time" : {
+    "start" : 1648050112243,
+    "stop" : 1648050112773,
+    "duration" : 530
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 23,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract",
+    "time" : {
+      "start" : 1648050112239,
+      "stop" : 1648050112242,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequest",
+    "time" : {
+      "start" : 1648050112242,
+      "stop" : 1648050112242,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestRequest::0",
+    "time" : {
+      "start" : 1648050113139,
+      "stop" : 1648050113139,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-29T4IPBI"
+  }, {
+    "name" : "thread",
+    "value" : "23300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args_name",
+    "value" : "{'name': '获取接口统一鉴权码token接口', 'request': {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'data': {'grant_type': 'client_credential', 'appid': 'wx74a8627810cfa308', 'secret': 'e40a02f9d79a8097df497e6aaf93ab80'}}, 'validate': 'None'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52951bd07b150899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648050072564,
+        "stop" : 1648050073279,
+        "duration" : 715
+      }
+    }, {
+      "uid" : "2d84b5bec37db82c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049952868,
+        "stop" : 1648049953359,
+        "duration" : 491
+      }
+    }, {
+      "uid" : "95c6ad5074c5def9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049744063,
+        "stop" : 1648049762103,
+        "duration" : 18040
+      }
+    }, {
+      "uid" : "5a07952f3fe25a8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049724655,
+        "stop" : 1648049725701,
+        "duration" : 1046
+      }
+    }, {
+      "uid" : "c5028a3fb86b5933",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049704413,
+        "stop" : 1648049704821,
+        "duration" : 408
+      }
+    }, {
+      "uid" : "2a07a0fe4d063c78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049688488,
+        "stop" : 1648049689790,
+        "duration" : 1302
+      }
+    }, {
+      "uid" : "4a15f5cfcebc8285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049652313,
+        "stop" : 1648049653388,
+        "duration" : 1075
+      }
+    }, {
+      "uid" : "f4a7538abf7f3ccf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049615579,
+        "stop" : 1648049617573,
+        "duration" : 1994
+      }
+    }, {
+      "uid" : "9c9ce17ebc6e1f05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049579344,
+        "stop" : 1648049579921,
+        "duration" : 577
+      }
+    }, {
+      "uid" : "6ad7dda4c66fa393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049490099,
+        "stop" : 1648049491528,
+        "duration" : 1429
+      }
+    }, {
+      "uid" : "466d2553fcc456cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648049346590,
+        "stop" : 1648049347567,
+        "duration" : 977
+      }
+    }, {
+      "uid" : "669b0b378d515abf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648047875227,
+        "stop" : 1648047875734,
+        "duration" : 507
+      }
+    }, {
+      "uid" : "1401f550d2b04d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648047855805,
+        "stop" : 1648047856138,
+        "duration" : 333
+      }
+    }, {
+      "uid" : "cdbb0ef84daf3491",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648047841502,
+        "stop" : 1648047842809,
+        "duration" : 1307
+      }
+    }, {
+      "uid" : "b4f0138c68205533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648047795862,
+        "stop" : 1648047796533,
+        "duration" : 671
+      }
+    }, {
+      "uid" : "f9c20a1654560fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648047561403,
+        "stop" : 1648047562174,
+        "duration" : 771
+      }
+    }, {
+      "uid" : "a1b9b1d9484a2bb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648047084412,
+        "stop" : 1648047085014,
+        "duration" : 602
+      }
+    }, {
+      "uid" : "13d3e62621f251ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648046982095,
+        "stop" : 1648046982883,
+        "duration" : 788
+      }
+    }, {
+      "uid" : "5b29913823cd0f2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648046785175,
+        "stop" : 1648046786034,
+        "duration" : 859
+      }
+    }, {
+      "uid" : "4b442296522a9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648046768486,
+        "stop" : 1648046768939,
+        "duration" : 453
+      }
+    }, {
+      "uid" : "16a6ed37e09c2d16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648046628403,
+        "stop" : 1648046629058,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "cd2add97b3f08b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648046582658,
+        "stop" : 1648046583131,
+        "duration" : 473
+      }
+    }, {
+      "uid" : "d3d12b17b462c865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648045977852,
+        "stop" : 1648045978405,
+        "duration" : 553
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "319c205c9fb37be4.json",
+  "parameterValues" : [ "{'name': '获取接口统一鉴权码token接口', 'request': {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'data': {'grant_type': 'client_credential', 'appid': 'wx74a8627810cfa308', 'secret': 'e40a02f9d79a8097df497e6aaf93ab80'}}, 'validate': 'None'}" ]
+}

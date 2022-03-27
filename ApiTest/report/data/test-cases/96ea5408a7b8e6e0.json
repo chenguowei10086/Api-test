@@ -1,0 +1,78 @@
+{
+  "uid" : "96ea5408a7b8e6e0",
+  "name" : "test_start",
+  "fullName" : "testcases.test_user.TestUser#test_start",
+  "historyId" : "9be82e94b92f764895d4ad6160523184",
+  "time" : {
+    "start" : 1648040362893,
+    "stop" : 1648040363245,
+    "duration" : 352
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: '1111111111access_token'",
+  "statusTrace" : "self = <testcases.test_user.TestUser object at 0x0000023A939F0AF0>\n\n    @pytest.mark.smoke\n    def test_start(self):\n    \n        url = \"http://47.107.116.139/phpwind/\"\n        # res = requests.request(method=\"get\", url=url)\n        res = RequestUtil().send_request(method=\"get\", url=url)\n        print(res.text)\n        # 正则提取\n        obj = re.search('name=\"csrf_token\" value=\"(.*?)\"', res.text)\n        write_yaml({\"csrf_token\":obj.group(1)})\n        # print(obj.group(1))\n        # 提取cookie\n>       print(read_yaml(\"1111111111\"+\"access_token\"))\n\ntestcases\\test_user.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nkey = '1111111111access_token'\n\n    def read_yaml(key):\n        with open(os.getcwd()+'/extract.yaml',mode='r',encoding='utf-8') as f:\n            value = yaml.load(stream=f,Loader=yaml.FullLoader)\n>           return value[key]\nE           KeyError: '1111111111access_token'\n\ncommon\\yaml_util.py:8: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract",
+    "time" : {
+      "start" : 1648040361355,
+      "stop" : 1648040361359,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-29T4IPBI"
+  }, {
+    "name" : "thread",
+    "value" : "1668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "96ea5408a7b8e6e0.json",
+  "parameterValues" : [ ]
+}

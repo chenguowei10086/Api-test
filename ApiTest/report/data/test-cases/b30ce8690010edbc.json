@@ -1,0 +1,138 @@
+{
+  "uid" : "b30ce8690010edbc",
+  "name" : "test_edit_flag",
+  "fullName" : "testcases.test_api.TestRequest#test_edit_flag",
+  "historyId" : "073cb06c544f99ba8396dbf1d22b16fe",
+  "time" : {
+    "start" : 1648046768998,
+    "stop" : 1648046768999,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'str_data' is not defined",
+  "statusTrace" : "self = <testcases.test_api.TestRequest object at 0x00000174B175DD60>\nexe_sql = None\n\n    @pytest.mark.smoke\n    # post请求:编辑标签接口\n    def test_edit_flag(self,exe_sql):\n        url =\"https://api.weixin.qq.com/cgi-bin/tags/update?access_token= \"+read_yaml(\"access_token\")\n        data = {\"tag\":{\"id\":134,\"name\":\"广东人\"}}\n        # str_data =json.dumps(data)\n>       res = RequestUtil().send_request(method=\"post\",url=url,datas=str_data)\nE       NameError: name 'str_data' is not defined\n\ntestcases\\test_api.py:56: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract",
+    "time" : {
+      "start" : 1648046768479,
+      "stop" : 1648046768485,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequest",
+    "time" : {
+      "start" : 1648046768485,
+      "stop" : 1648046768485,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "exe_sql",
+    "time" : {
+      "start" : 1648046768998,
+      "stop" : 1648046768998,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "exe_sql::0",
+    "time" : {
+      "start" : 1648046769130,
+      "stop" : 1648046769130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequest::0",
+    "time" : {
+      "start" : 1648046769140,
+      "stop" : 1648046769140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-29T4IPBI"
+  }, {
+    "name" : "thread",
+    "value" : "18888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "b30ce8690010edbc.json",
+  "parameterValues" : [ ]
+}

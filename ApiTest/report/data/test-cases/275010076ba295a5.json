@@ -1,0 +1,328 @@
+{
+  "uid" : "275010076ba295a5",
+  "name" : "test_get_token",
+  "fullName" : "testcases.test_api.TestRequest#test_get_token",
+  "historyId" : "9cfed629b3d49eb458e6ca83211873b4",
+  "time" : {
+    "start" : 1648041808117,
+    "stop" : 1648041808670,
+    "duration" : 553
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 27,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "clear_extract",
+    "time" : {
+      "start" : 1648041808112,
+      "stop" : 1648041808116,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequest",
+    "time" : {
+      "start" : 1648041808116,
+      "stop" : 1648041808116,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestRequest::0",
+    "time" : {
+      "start" : 1648041808807,
+      "stop" : 1648041808807,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-29T4IPBI"
+  }, {
+    "name" : "thread",
+    "value" : "5184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3ed087ea94c63663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041529353,
+        "stop" : 1648041530587,
+        "duration" : 1234
+      }
+    }, {
+      "uid" : "d831372d4270c6cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041451625,
+        "stop" : 1648041452127,
+        "duration" : 502
+      }
+    }, {
+      "uid" : "c92e796e85a64225",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041195436,
+        "stop" : 1648041197291,
+        "duration" : 1855
+      }
+    }, {
+      "uid" : "6af50be9422e07b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041158222,
+        "stop" : 1648041159929,
+        "duration" : 1707
+      }
+    }, {
+      "uid" : "d8da23682933e8da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041104740,
+        "stop" : 1648041105263,
+        "duration" : 523
+      }
+    }, {
+      "uid" : "12d005a5f0a13297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041072557,
+        "stop" : 1648041073743,
+        "duration" : 1186
+      }
+    }, {
+      "uid" : "b774ff618c54deb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648041008105,
+        "stop" : 1648041009383,
+        "duration" : 1278
+      }
+    }, {
+      "uid" : "2cab3d2603f8d452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040992370,
+        "stop" : 1648040992992,
+        "duration" : 622
+      }
+    }, {
+      "uid" : "7f201b74db33fe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040947228,
+        "stop" : 1648040948374,
+        "duration" : 1146
+      }
+    }, {
+      "uid" : "e8996f63d8cca1ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040907440,
+        "stop" : 1648040908929,
+        "duration" : 1489
+      }
+    }, {
+      "uid" : "a00f9aed09193c66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040863429,
+        "stop" : 1648040863898,
+        "duration" : 469
+      }
+    }, {
+      "uid" : "9526dd6e6f374ba4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040759021,
+        "stop" : 1648040759917,
+        "duration" : 896
+      }
+    }, {
+      "uid" : "6d9511cde1e84536",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040394818,
+        "stop" : 1648040396241,
+        "duration" : 1423
+      }
+    }, {
+      "uid" : "bc4b4c6dfce64886",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040361361,
+        "stop" : 1648040362514,
+        "duration" : 1153
+      }
+    }, {
+      "uid" : "9f6a050bd7da36ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040333729,
+        "stop" : 1648040335081,
+        "duration" : 1352
+      }
+    }, {
+      "uid" : "1b55b17ed27e1c15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040271379,
+        "stop" : 1648040271935,
+        "duration" : 556
+      }
+    }, {
+      "uid" : "176766e1269636d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648040019253,
+        "stop" : 1648040021401,
+        "duration" : 2148
+      }
+    }, {
+      "uid" : "73666575c4a61d9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648038078545,
+        "stop" : 1648038080038,
+        "duration" : 1493
+      }
+    }, {
+      "uid" : "38c2d5a2be83cbe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648033556815,
+        "stop" : 1648033557736,
+        "duration" : 921
+      }
+    }, {
+      "uid" : "b7f7c3539832da43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648033486124,
+        "stop" : 1648033486828,
+        "duration" : 704
+      }
+    }, {
+      "uid" : "dab33f62ba5e4026",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648033327079,
+        "stop" : 1648033327559,
+        "duration" : 480
+      }
+    }, {
+      "uid" : "ac7abc85baf47df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648033298619,
+        "stop" : 1648033299335,
+        "duration" : 716
+      }
+    }, {
+      "uid" : "99a59e8a9e382fc7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Session' object has no attribute 'requset'",
+      "time" : {
+        "start" : 1648033227458,
+        "stop" : 1648033227458,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "be4c0fcf33b5d473",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Session' object has no attribute 'requset'",
+      "time" : {
+        "start" : 1648033102507,
+        "stop" : 1648033102507,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d3092b019c7cfb3c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Session' object has no attribute 'requset'",
+      "time" : {
+        "start" : 1648033035586,
+        "stop" : 1648033035586,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c69c1e791666b81e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Session' object has no attribute 'requset'",
+      "time" : {
+        "start" : 1648032989030,
+        "stop" : 1648032989030,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "67c9af9a02f3d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648020903578,
+        "stop" : 1648020904298,
+        "duration" : 720
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "275010076ba295a5.json",
+  "parameterValues" : [ ]
+}

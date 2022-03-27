@@ -1,0 +1,161 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_api",
+      "children" : [ {
+        "name" : "TestRequest",
+        "children" : [ {
+          "name" : "test_file_upload",
+          "uid" : "c9a5ac4f1c27c535",
+          "parentUid" : "ef6645562cbac7874bc124e0fbbeae4e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1648033327772,
+            "stop" : 1648033327773,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_get_token",
+          "uid" : "275010076ba295a5",
+          "parentUid" : "ef6645562cbac7874bc124e0fbbeae4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648041808117,
+            "stop" : 1648041808670,
+            "duration" : 553
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 27,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_edit_flag",
+          "uid" : "ae2169041d29e8d1",
+          "parentUid" : "ef6645562cbac7874bc124e0fbbeae4e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1648049726523,
+            "stop" : 1648049726523,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 46,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_get_token[args_name1]",
+          "uid" : "ec377f1273cca031",
+          "parentUid" : "ef6645562cbac7874bc124e0fbbeae4e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1648049953417,
+            "stop" : 1648049953494,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 15,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '编辑标签接口', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update?access_token=', 'data': {'tag': {'id': 134, 'name': '广东人'}}}, 'validate': 'None'}" ]
+        }, {
+          "name" : "test_get_token[args_name0]",
+          "uid" : "319c205c9fb37be4",
+          "parentUid" : "ef6645562cbac7874bc124e0fbbeae4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648050112243,
+            "stop" : 1648050112773,
+            "duration" : 530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 23,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '获取接口统一鉴权码token接口', 'request': {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'data': {'grant_type': 'client_credential', 'appid': 'wx74a8627810cfa308', 'secret': 'e40a02f9d79a8097df497e6aaf93ab80'}}, 'validate': 'None'}" ]
+        }, {
+          "name" : "test_edit_flag[args_name0]",
+          "uid" : "8821c1d859d97d3b",
+          "parentUid" : "ef6645562cbac7874bc124e0fbbeae4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648050112823,
+            "stop" : 1648050113129,
+            "duration" : 306
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '编辑标签接口', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update?access_token=', 'data': {'tag': {'id': 134, 'name': '广东人'}}}, 'validate': 'None'}" ]
+        } ],
+        "uid" : "ef6645562cbac7874bc124e0fbbeae4e"
+      } ],
+      "uid" : "18225ee7711284aff180634fde46d8e9"
+    }, {
+      "name" : "test_user",
+      "children" : [ {
+        "name" : "TestUser",
+        "children" : [ {
+          "name" : "test_start",
+          "uid" : "64789d0166e223a6",
+          "parentUid" : "30d154c7d9286ac56f7632fb92279558",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648041808822,
+            "stop" : 1648041808986,
+            "duration" : 164
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 20,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login",
+          "uid" : "3013a2e7a8009e43",
+          "parentUid" : "30d154c7d9286ac56f7632fb92279558",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648041809033,
+            "stop" : 1648041809116,
+            "duration" : 83
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 19,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "30d154c7d9286ac56f7632fb92279558"
+      } ],
+      "uid" : "b967d4218501c29b1bf540f63a1c2b62"
+    } ],
+    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+  } ]
+}
